@@ -1,0 +1,21 @@
+{
+  "name": "base-nuxt-client",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "ISC",
+  "scripts": {
+    "build": "nuxt build",
+    "serve": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.15.2",
+    "neysla": "^3.8.3",
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "zod": "^3.22.4"
+  }
+}
