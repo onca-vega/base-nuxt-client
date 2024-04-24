@@ -18,7 +18,7 @@ const state = reactive({
 });
 async function loadLogs() {
   try {
-    const { data } = await $neysla.logs.get();
+    const { data } = await $neysla.notification.get();
 
     state.logs = [];
     state.logs.push(...data);

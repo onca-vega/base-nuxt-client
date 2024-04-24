@@ -37,7 +37,7 @@ const state = reactive({
 
 async function onSubmit(event) {
   try {
-    await $neysla.submission.post({
+    await $neysla.notification.post({
       body: {
         message: event.data.message,
         category: event.data.category,
